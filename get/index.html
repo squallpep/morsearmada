@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morse Armada — Télécharger</title>
+  <meta name="description" content="Apprends le morse en coulant des flottes steampunk. Gratuit, sans pub, sur iPhone et Android.">
+  <!-- Aperçu du lien quand on le partage (Messages, WhatsApp…) -->
+  <meta property="og:title" content="Morse Armada">
+  <meta property="og:description" content="Apprends le morse en coulant des flottes steampunk. Gratuit, sans pub.">
+  <meta property="og:image" content="https://squallpep.github.io/morsearmada/get/apercu.png">
+  <meta property="og:url" content="https://squallpep.github.io/morsearmada/get/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <script>
+    // Redirige vers la boutique du téléphone : App Store sur iPhone/iPad, Google Play sur Android.
+    (function () {
+      var ua = navigator.userAgent || '';
+      var ios = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+      var android = /Android/i.test(ua);
+      if (ios) location.replace('https://apps.apple.com/app/id6832913199');
+      else if (android) location.replace('https://play.google.com/store/apps/details?id=com.morsearmada.app');
+    })();
+  </script>
+  <style>
+    body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #2b1d14; color: #eadbc0; font: 17px/1.5 Georgia, serif; text-align: center; }
+    main { padding: 32px 20px; max-width: 520px; }
+    img { width: 96px; height: 96px; border-radius: 22px; border: 3px solid #b5893b; }
+    h1 { color: #f3e2b8; margin: 14px 0 4px; letter-spacing: 1px; }
+    a.btn { display: block; margin: 12px auto; max-width: 300px; padding: 14px; border-radius: 12px; background: #b5893b; color: #1a1410; font-weight: bold; text-decoration: none; }
+  </style>
+</head>
+<body>
+<main>
+  <img src="../icon.png" alt="">
+  <h1>Morse Armada</h1>
+  <p>Apprends le morse en coulant des flottes steampunk.<br>Learn Morse code by sinking steampunk fleets.</p>
+  <a class="btn" href="https://apps.apple.com/app/id6832913199">App Store (iPhone, iPad)</a>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=com.morsearmada.app">Google Play (Android)</a>
+</main>
+</body>
+</html>
